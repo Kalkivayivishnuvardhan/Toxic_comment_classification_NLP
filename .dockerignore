@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.git
+.gitignore
+Toxic_Comment_Classification_NLP_Pipeline.ipynb
+train (1).csv
