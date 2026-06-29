@@ -1,3 +1,12 @@
+---
+title: Toxic Comment Classification Nlp
+emoji: 😻
+colorFrom: indigo
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+
 # Toxic Comment Classification using NLP
 
 ## Overview
@@ -6,74 +15,52 @@ This project is a web application that detects and classifies toxic comments usi
 
 ## Features
 
-* Multi-label toxic comment classification
-* Interactive Flask web interface
-* Supports multiple trained models:
-
-  * Logistic Regression
-  * XGBoost
-  * BiLSTM
-* TF-IDF vectorization for traditional ML models
-* Keras Tokenizer for deep learning model
-* Ready for deployment on Render
+- Multi-label toxic comment classification
+- Interactive Flask web interface
+- Supports multiple trained models:
+  - Logistic Regression
+  - XGBoost
+  - BiLSTM
+- TF-IDF vectorization for traditional ML models
+- Keras Tokenizer for deep learning model
+- Ready for deployment on Hugging Face Spaces
 
 ## Tech Stack
 
-* Python
-* Flask
-* Scikit-learn
-* TensorFlow / Keras
-* XGBoost
-* Pandas
-* NumPy
-* HTML/CSS
+- Python
+- Flask
+- Scikit-learn
+- TensorFlow / Keras
+- XGBoost
+- Pandas
+- NumPy
+- HTML/CSS
 
 ## Project Structure
 
-```
+```text
 Toxic_comment_classification_NLP/
 │── app.py
+│── Dockerfile
 │── requirements.txt
-│── render.yaml
 │── templates/
-│   └── index.html
 │── models/
-│   ├── bilstm_model.h5
-│   ├── final_lr_models.pkl
-│   ├── tfidf_vectorizer.pkl
-│   ├── keras_tokenizer.json
-│   └── xgb_models.pkl
-│── .gitignore
-└── README.md
+│── README.md
 ```
 
 ## Installation
 
-Clone the repository:
-
 ```bash
 git clone https://github.com/Kalkivayivishnuvardhan/Toxic_comment_classification_NLP.git
-```
 
-Move into the project folder:
-
-```bash
 cd Toxic_comment_classification_NLP
-```
 
-Install the required packages:
-
-```bash
 pip install -r requirements.txt
-```
 
-Run the application:
-
-```bash
 python app.py
 ```
 
-Open your browser and visit:
+Open:
 
 ```
 http://127.0.0.1:5000
@@ -81,17 +68,16 @@ http://127.0.0.1:5000
 
 ## Models Used
 
-* Logistic Regression
-* XGBoost
-* BiLSTM Neural Network
+- Logistic Regression
+- XGBoost
+- BiLSTM
 
 ## Future Improvements
 
-* Add BERT and RoBERTa models
-* REST API support
-* Docker containerization
-* User authentication
-* Model performance dashboard
+- BERT
+- RoBERTa
+- REST API
+- Dashboard
 
 ## Author
 
